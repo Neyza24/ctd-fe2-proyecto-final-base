@@ -15,6 +15,8 @@ const simularTiempoTranscurrido: (decrementMiliseconds: number) => Date = (
   return time;
 };
 
+
+
 const data = [
   {
     id: 1,

@@ -10,6 +10,11 @@ import {
 } from "./citaSlice";
 import { obtenerMensaje } from "./utils";
 
+/**
+ * Componente Cita, muestra la sección de citas de los personajes de Los Simpson
+ * @returns {JSX.Element} - Incluye el texto cita, autor y su lógica correspondiente
+ */
+
 function Cita() {
   const [valorInput, setValorInput] = useState("");
   const { cita = "", personaje = "" } =
@@ -47,4 +52,5 @@ function Cita() {
     </ContenedorCita>
   );
 }
+
 export default Cita;
